@@ -1,6 +1,6 @@
 class Todo{
  final String task;
-  final int id;
+  final String id;
   final bool isComplate;
   final DateTime createAt;
  
