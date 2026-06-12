@@ -11,7 +11,7 @@ const Main({ Key? key }) : super(key: key);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body:TodoScreen() ,
+        body:TodoScreen() 
       ),
     );
   }
