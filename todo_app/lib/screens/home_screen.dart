@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/screens/add_task.dart';
+import 'package:todo_app/screens/taskList.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({ Key? key }) : super(key: key);
@@ -17,9 +18,15 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             AddTask(),
+<<<<<<< HEAD
             
           ],
         ),
+=======
+            TaskList(tasks:tasks)
+          ],
+        )
+>>>>>>> todo
         
             ),
       ),
